@@ -1,6 +1,8 @@
 # Remote Run
 > A powerful tool for developers to remotely compile their code
 
+点击查看[中文版](https://github.com/2siimov/RemoteRun/blob/master/ChineseReadme.md)
+
 ## Our Advantages
 - Multi Platform Support
 - Multi Language Support
@@ -31,3 +33,5 @@ to run the file
 - Maybe Even more features
 
 Leave a star to support me. It means a lot.
+
+[中文]: https://github.com/2siimov/RemoteRun/blob/master/ChineseReadme.md版
