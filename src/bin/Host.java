@@ -20,6 +20,5 @@ public class Host {
         instance = new Host();
         instance.hostSend.getStream();
         CommandlineUI.mainInterface(instance.socketConfig, new CompileConfig(), instance.hostSend);
-
     }
 }

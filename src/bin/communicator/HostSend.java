@@ -56,6 +56,16 @@ public class HostSend {
         }
         return null;
     }
+    /*public String tellRun(CompileConfig compileConfig) throws IOException {
+        Logger.log("Telling Run");
+        byte[] remsg = new byte[512];
+        printStream.println("run");
+        int length = inputStream.read(remsg);
+        if (new String(remsg, 0, length, "UTF-8").contains("Roger")) {
+            Logger.log("Client Received, Sending Class Path");
+            printStream.
+        }
+    }*/
     public void sendCmd(String cmd) throws IOException {
         Logger.log("Sending Command " + cmd);
         printStream.println(cmd);
